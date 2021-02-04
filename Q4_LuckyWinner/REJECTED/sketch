@@ -1,0 +1,10 @@
+# for i in range(0, 5):
+for i in range(0, int(itemLRange)):
+    # itemLContent = input('')
+    # itemL.append(int(itemLContent))
+    # itemL.append(int(input().split))
+    itemL3in1 = input('')
+    # print(itemL3in1)
+    itemL3in1Split = itemL3in1.split()
+    # print(itemL3in1Split)
+    append3in1ContentIntoList(itemL3in1Split)

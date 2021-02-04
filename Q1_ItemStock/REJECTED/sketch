@@ -1,0 +1,17 @@
+print(1)
+        ''' while parentPointer['parent'] != None:
+            print(2)
+            if parentPointer['type'] == 'dynamic':
+                print(3)
+                childPointer = parentPointer
+                print(childPointer)
+                # parentPointer = bigItemDict[childPointer['parent']]
+                parentPointer = bigItemDict[int(childPointer['parent'])-1]
+                print(parentPointer)
+
+
+                childTotalStock = int(childPointer['quantity']) * int(childPointer['stock'])
+                parentPointer['stock'] = childTotalStock '''
+
+            # if bigItemDict[bigItemDict[counter]['parent']]['type'] == 'fixed':
+                # bigItemDict[bigItemDict[counter]['parent']]['quantity']  (bigItemDict[bigItemDict[counter]['parent']]['quantity']*bigItemDict[bigItemDict[counter]['parent']]['stock'])
